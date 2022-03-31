@@ -1,0 +1,15 @@
+{
+  // The number of spaces a tab
+  "editor.tabSize": 2,
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // file auto save
+  "files.autoSave": "onFocusChange",
+  // set default format arrange code prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.ignoreLimitWarning": true
+}
